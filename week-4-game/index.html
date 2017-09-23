@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4 Game</title>
+	<link rel="icon" href="assets/images/SmashBrosSymbol.png">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<h2>Choose your character:</h2>
+
+<div id="charselect">
+<img id="char1" class="char" src="assets/images/chr_13_link_01.png">
+<img id="char2" class="char" src="assets/images/chr_13_peach_01.png">
+<img id="char3" class="char" src="assets/images/chr_13_yoshi_01.png">
+<img id="char4" class="char" src="assets/images/chr_13_koopa_06.png">
+<img id="invis" class="char" src="assets/images/chr_13_link_01.png">
+</div>
+
+<h2>Chosen character:</h2>
+
+<div id="chosenchar">
+<span id="yourhp">Your HP: <span id="hp"></span></span>
+<span id="yourap">Your Attack Power: <span id="ap"></span></span>
+<img id="invis" class="char" src="assets/images/chr_13_link_01.png">
+</div>
+
+<h2>Enemies available to attack:</h2>
+
+<div id="enemies">
+<img id="invis" class="char" src="assets/images/chr_13_link_01.png">
+</div>
+
+<h2>Defender:</h2>
+
+<div id="defender">
+<span id="enemyhp">Enemy HP: <span id="ehp"></span></span>
+<span id="yourcapower">Counter Attack Power: <span id="cap"></span></span>
+<img id="invis" class="char" src="assets/images/chr_13_link_01.png">
+</div>
+
+<button id="attack" type="button">Attack</button>
+
+<p id="info"></p>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

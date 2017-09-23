@@ -1,0 +1,68 @@
+body {
+	background-image: url(../images/bg.png);
+	background-size: 100%;
+}
+
+img {
+	width: 80px;
+}
+#char1, #char2, #char3, #char4 {
+	border: solid 3px grey;
+}
+
+#invis {
+	opacity: 0;
+}
+
+#yourhp {
+	position: absolute;
+	top: 186px;
+	visibility: hidden;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 25px;
+}
+
+#yourap {
+	position: absolute;
+	top: 222px;
+	visibility: hidden;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 25px;
+}
+
+#enemyhp {
+	position: absolute;
+	top: 462px;
+	visibility: hidden;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 25px;	
+}
+
+#yourcapower {
+	position: absolute;
+	top: 495px;
+	visibility: hidden;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 25px;	
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#char3enemy, #char4enemy, #char2enemy, #char1enemy {
+	margin-right: 4px;
+}
+
+#fight {
+	visibility: hidden;
+	}
+
+#info {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 25px;	
+	margin-top: 10px;
+}
