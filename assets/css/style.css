@@ -16,7 +16,7 @@ img {
 
 #yourhp {
 	position: absolute;
-	top: 186px;
+	top: 241px;
 	visibility: hidden;
 	font-family: 'PT Sans', sans-serif;	
 	font-size: 25px;
@@ -24,7 +24,7 @@ img {
 
 #yourap {
 	position: absolute;
-	top: 222px;
+	top: 274px;
 	visibility: hidden;
 	font-family: 'PT Sans', sans-serif;	
 	font-size: 25px;
@@ -32,7 +32,7 @@ img {
 
 #enemyhp {
 	position: absolute;
-	top: 462px;
+	top: 516px;
 	visibility: hidden;
 	font-family: 'PT Sans', sans-serif;	
 	font-size: 25px;	
@@ -40,7 +40,7 @@ img {
 
 #yourcapower {
 	position: absolute;
-	top: 495px;
+	top: 549px;
 	visibility: hidden;
 	font-family: 'PT Sans', sans-serif;	
 	font-size: 25px;	
@@ -57,7 +57,7 @@ h2 {
 	margin-right: 4px;
 }
 
-#fight {
+#attack {
 	visibility: hidden;
 	}
 
